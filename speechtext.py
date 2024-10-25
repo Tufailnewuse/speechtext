@@ -1,4 +1,3 @@
-pip install streamlit transformers soundfile torchaudio
 import streamlit as st
 import soundfile as sf
 import torch
