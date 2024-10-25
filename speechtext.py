@@ -1,3 +1,5 @@
+pip install torch
+python -c "import torch; print(torch.__version__)"
 import streamlit as st
 import torch
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
